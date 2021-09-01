@@ -5,21 +5,35 @@
     font-family: Roboto;
 }
 
+body{
+    width: 100%;
+}
+
 #main_header{
     width: 100%;
     height: 90px;
-    position: relative;
+    line-height: 90px;
 }
 
 #logo{
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    
+    vertical-align: middle;
+    padding-left: 20px;
 }
 
 #titolo_header{
-    position: absolute;
-    top: 15px;
-    left: 70px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main_content{
+    background-color: #F6F8F9;
+}
+
+#contenitore{
+    background-color: white;
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    
 }
